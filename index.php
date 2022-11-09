@@ -21,7 +21,7 @@
 
 <body>
 
-    <form action="php/register.php" method="POST">
+    <form action="./php/register.php" method="POST">
         <h2>Crea il tuo account</h2>
 
         <label for="nome">Inserisci il nome</label>
@@ -37,6 +37,7 @@
         <input type="password" name="password" id="password" placeholder="Scrivila qui" required>
 
         <input type="submit" value="Invia">
+        <a href="login.html">Hai già un account? Accedi</a>
     </form>
 </body>
 
