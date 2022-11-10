@@ -18,10 +18,12 @@ if(!isset($_SESSION['loggato']) || $_SESSION['loggato'] !== true ){
     <title>Pagina personale</title>
 </head>
 <body>
-    <h1>Pagine personale</h1>
+    <h1>Pagina personale</h1>
+
     <?php
-        echo "Ciao " . $_SESSION["username"];
+        echo "Ciao " . $_SESSION["nome"];
     ?>
 
+    <a href="login.html">Disconnetti</a>
 </body>
 </html>
