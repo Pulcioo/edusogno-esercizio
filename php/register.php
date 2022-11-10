@@ -12,6 +12,7 @@ $sql = "INSERT INTO utenti (nome, cognome, email, password) VALUES ('$nome', '$c
 
 if($conn->query($sql) === true){
     echo "Registrazione effettuata con successo";
+    header("location: ../login.html");
 }else{
     echo "Errore registrazione utente $sql. " . $connessione->error;
 }

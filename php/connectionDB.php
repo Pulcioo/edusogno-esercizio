@@ -14,5 +14,5 @@
         die();
     }
 
-    echo('DB CONNESSO!')
+    // echo('DB CONNESSO!')
 ?>
