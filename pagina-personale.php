@@ -15,14 +15,23 @@ if(!isset($_SESSION['loggato']) || $_SESSION['loggato'] !== true ){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Pagina personale</title>
 </head>
 <body>
-    <h1>Pagina personale</h1>
 
+    <header>
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+    </header>
+
+    <div>
     <?php
-        echo "Ciao " . $_SESSION["nome"];
+        echo "Ciao " . $_SESSION["nome"] . " ecco i tuoi eventi";
     ?>
+    </div>
+    
 
     <a href="login.html">Disconnetti</a>
 </body>

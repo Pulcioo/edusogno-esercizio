@@ -21,24 +21,34 @@
 
 <body>
 
-    <form action="./php/register.php" method="POST">
+    <header>
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+    </header>
+
+    <div class="form-container">
         <h2>Crea il tuo account</h2>
 
-        <label for="nome">Inserisci il nome</label>
-        <input type="nome" name="nome" id="nome" placeholder="Mario" required>
+        <form action="./php/register.php" method="POST">
+            
+            <label for="nome">Inserisci il nome</label>
+            <input type="nome" name="nome" id="nome" placeholder="Mario" required>
 
-        <label for="cognome">Inserisci il cognome</label>
-        <input type="cognome" name="cognome" id="cognome" placeholder="Rossi" required>
+            <label for="cognome">Inserisci il cognome</label>
+            <input type="cognome" name="cognome" id="cognome" placeholder="Rossi" required>
 
-        <label for="email">Inserisci l'email</label>
-        <input type="email" name="email" id="email" placeholder="name@example.com" required>
+            <label for="email">Inserisci l'email</label>
+            <input type="email" name="email" id="email" placeholder="name@example.com" required>
 
-        <label for="password">Inserisci la password</label>
-        <input type="password" name="password" id="password" placeholder="Scrivila qui" required>
+            <label for="password">Inserisci la password</label>
+            <input type="password" name="password" id="password" placeholder="Scrivila qui" required>
 
-        <input type="submit" value="Invia">
-        <a href="login.html">Hai già un account? Accedi</a>
-    </form>
+            <input type="submit" value="Invia">
+            <a href="login.html">Hai già un account? Accedi</a>
+        </form>
+    </div>
+
 </body>
 
 </html>

@@ -1,12 +1,52 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    background-color: rgb(182, 196, 229);
+    font-family: "poppins", sans-serif;
+}
+
+.logo {
+    height: 80px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 20px rgb(39, 79, 173);
+}
+
+.logo h1 {
+    font-size: 35px;
+}
+
+.form-container {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+h2 {
+    color: rgb(39, 79, 173);
 }
 
 form {
     display: flex;
     flex-direction: column;
     width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(39, 79, 173);
+    border-radius: 20px;
+    background-color: white;
 }
 
 form>input {
