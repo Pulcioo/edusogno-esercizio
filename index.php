@@ -44,8 +44,8 @@
             <label for="password">Inserisci la password</label>
             <input type="password" name="password" id="password" placeholder="Scrivila qui" required>
 
-            <input type="submit" value="Invia">
-            <a href="login.html">Hai già un account? Accedi</a>
+            <input type="submit" value="Registrati" class="invio">
+            <a href="login.html">Hai già un account? <b>Accedi</b></a>
         </form>
     </div>
 

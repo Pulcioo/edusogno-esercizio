@@ -37,18 +37,42 @@ body {
 
 h2 {
     color: rgb(39, 79, 173);
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    padding: 20px;
+    width: 500px;
+    padding: 40px;
     border: 1px solid rgb(39, 79, 173);
     border-radius: 20px;
     background-color: white;
 }
 
+form>label {
+    font-size: small;
+    margin-bottom: 5px;
+}
+
 form>input {
-    margin-bottom: 20px;
+    border-style: none;
+    border-bottom-style: solid;
+    font-size: large;
+    margin-bottom: 25px;
+}
+
+.invio {
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 228);
+}
+
+form>a {
+    font-size: small;
+    text-align: center;
 }
