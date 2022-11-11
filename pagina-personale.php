@@ -25,14 +25,14 @@ if(!isset($_SESSION['loggato']) || $_SESSION['loggato'] !== true ){
             <h1>LOGO</h1>
         </div>
     </header>
-
-    <div>
-    <?php
-        echo "Ciao " . $_SESSION["nome"] . " ecco i tuoi eventi";
-    ?>
-    </div>
+<div class="text">
+    <h2>
+        <?php
+            echo "Ciao " . $_SESSION["nome"] . " ecco i tuoi eventi";
+        ?>
+    </h2>
+    <a href="login.html" class="disconnetti">Disconnetti</a>
+</div>
     
-
-    <a href="login.html">Disconnetti</a>
 </body>
 </html>
